@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4155358E1BF50CDE004341B1 /* Pregunta.m in Sources */ = {isa = PBXBuildFile; fileRef = 4155358D1BF50CDE004341B1 /* Pregunta.m */; };
+		415535911BF50CF4004341B1 /* Autor.m in Sources */ = {isa = PBXBuildFile; fileRef = 415535901BF50CF4004341B1 /* Autor.m */; };
 		416F4E9C1BF22F7B00B409E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 416F4E9B1BF22F7B00B409E2 /* main.m */; };
 		416F4E9F1BF22F7B00B409E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416F4E9E1BF22F7B00B409E2 /* AppDelegate.m */; };
 		416F4EA21BF22F7B00B409E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416F4EA11BF22F7B00B409E2 /* ViewController.m */; };
 		416F4EA51BF22F7B00B409E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416F4EA31BF22F7B00B409E2 /* Main.storyboard */; };
 		416F4EA71BF22F7B00B409E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416F4EA61BF22F7B00B409E2 /* Assets.xcassets */; };
 		416F4EAA1BF22F7B00B409E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416F4EA81BF22F7B00B409E2 /* LaunchScreen.storyboard */; };
+		417464491BF37EC400FE5A08 /* Contenedor.m in Sources */ = {isa = PBXBuildFile; fileRef = 417464481BF37EC400FE5A08 /* Contenedor.m */; };
+		419085A41BF329DD00F00C2F /* GeneraEntidad.m in Sources */ = {isa = PBXBuildFile; fileRef = 419085A31BF329DD00F00C2F /* GeneraEntidad.m */; };
+		419085A71BF32AEA00F00C2F /* UrlCallsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 419085A61BF32AEA00F00C2F /* UrlCallsHelper.m */; };
+		41C1E43B1BF2A01F00ADC55C /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C1E43A1BF2A01F00ADC55C /* FileHelper.m */; };
+		41EF55B21BF91DF800DD1BB1 /* imgperfil.png in Resources */ = {isa = PBXBuildFile; fileRef = 41EF55B11BF91DF800DD1BB1 /* imgperfil.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4155358C1BF50CDE004341B1 /* Pregunta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pregunta.h; sourceTree = "<group>"; };
+		4155358D1BF50CDE004341B1 /* Pregunta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pregunta.m; sourceTree = "<group>"; };
+		4155358F1BF50CF4004341B1 /* Autor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Autor.h; sourceTree = "<group>"; };
+		415535901BF50CF4004341B1 /* Autor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Autor.m; sourceTree = "<group>"; };
+		4167386B1BF3E7CB00C00AB4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		416F4E971BF22F7B00B409E2 /* EduardoFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduardoFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		416F4E9B1BF22F7B00B409E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		416F4E9D1BF22F7B00B409E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +38,15 @@
 		416F4EA61BF22F7B00B409E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		416F4EA91BF22F7B00B409E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		416F4EAB1BF22F7B00B409E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417464471BF37EC400FE5A08 /* Contenedor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contenedor.h; sourceTree = "<group>"; };
+		417464481BF37EC400FE5A08 /* Contenedor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contenedor.m; sourceTree = "<group>"; };
+		419085A21BF329DD00F00C2F /* GeneraEntidad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneraEntidad.h; sourceTree = "<group>"; };
+		419085A31BF329DD00F00C2F /* GeneraEntidad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneraEntidad.m; sourceTree = "<group>"; };
+		419085A51BF32AEA00F00C2F /* UrlCallsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlCallsHelper.h; sourceTree = "<group>"; };
+		419085A61BF32AEA00F00C2F /* UrlCallsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlCallsHelper.m; sourceTree = "<group>"; };
+		41C1E4391BF2A01F00ADC55C /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		41C1E43A1BF2A01F00ADC55C /* FileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelper.m; sourceTree = "<group>"; };
+		41EF55B11BF91DF800DD1BB1 /* imgperfil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgperfil.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +83,10 @@
 				416F4E9E1BF22F7B00B409E2 /* AppDelegate.m */,
 				416F4EA01BF22F7B00B409E2 /* ViewController.h */,
 				416F4EA11BF22F7B00B409E2 /* ViewController.m */,
-				416F4EA31BF22F7B00B409E2 /* Main.storyboard */,
-				416F4EA61BF22F7B00B409E2 /* Assets.xcassets */,
-				416F4EA81BF22F7B00B409E2 /* LaunchScreen.storyboard */,
-				416F4EAB1BF22F7B00B409E2 /* Info.plist */,
+				41EF55B91BF92AE100DD1BB1 /* Entidades */,
+				41EF55B81BF92ABF00DD1BB1 /* Contenedor */,
+				41EF55B71BF92AAF00DD1BB1 /* GeneraEntidad */,
+				41EF55B61BF92A6700DD1BB1 /* Helpers */,
 				416F4E9A1BF22F7B00B409E2 /* Supporting Files */,
 			);
 			path = EduardoFC;
@@ -74,9 +95,79 @@
 		416F4E9A1BF22F7B00B409E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				416F4EAB1BF22F7B00B409E2 /* Info.plist */,
 				416F4E9B1BF22F7B00B409E2 /* main.m */,
+				41EF55B51BF92A4200DD1BB1 /* ficheropch */,
+				41EF55B41BF92A1700DD1BB1 /* storyboard */,
+				41EF55B31BF9298E00DD1BB1 /* imagenes */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41EF55B31BF9298E00DD1BB1 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				416F4EA61BF22F7B00B409E2 /* Assets.xcassets */,
+				41EF55B11BF91DF800DD1BB1 /* imgperfil.png */,
+			);
+			name = imagenes;
+			sourceTree = "<group>";
+		};
+		41EF55B41BF92A1700DD1BB1 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				416F4EA31BF22F7B00B409E2 /* Main.storyboard */,
+				416F4EA81BF22F7B00B409E2 /* LaunchScreen.storyboard */,
+			);
+			name = storyboard;
+			sourceTree = "<group>";
+		};
+		41EF55B51BF92A4200DD1BB1 /* ficheropch */ = {
+			isa = PBXGroup;
+			children = (
+				4167386B1BF3E7CB00C00AB4 /* PrefixHeader.pch */,
+			);
+			name = ficheropch;
+			sourceTree = "<group>";
+		};
+		41EF55B61BF92A6700DD1BB1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				41C1E4391BF2A01F00ADC55C /* FileHelper.h */,
+				41C1E43A1BF2A01F00ADC55C /* FileHelper.m */,
+				419085A51BF32AEA00F00C2F /* UrlCallsHelper.h */,
+				419085A61BF32AEA00F00C2F /* UrlCallsHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		41EF55B71BF92AAF00DD1BB1 /* GeneraEntidad */ = {
+			isa = PBXGroup;
+			children = (
+				419085A21BF329DD00F00C2F /* GeneraEntidad.h */,
+				419085A31BF329DD00F00C2F /* GeneraEntidad.m */,
+			);
+			name = GeneraEntidad;
+			sourceTree = "<group>";
+		};
+		41EF55B81BF92ABF00DD1BB1 /* Contenedor */ = {
+			isa = PBXGroup;
+			children = (
+				417464471BF37EC400FE5A08 /* Contenedor.h */,
+				417464481BF37EC400FE5A08 /* Contenedor.m */,
+			);
+			name = Contenedor;
+			sourceTree = "<group>";
+		};
+		41EF55B91BF92AE100DD1BB1 /* Entidades */ = {
+			isa = PBXGroup;
+			children = (
+				4155358C1BF50CDE004341B1 /* Pregunta.h */,
+				4155358D1BF50CDE004341B1 /* Pregunta.m */,
+				4155358F1BF50CF4004341B1 /* Autor.h */,
+				415535901BF50CF4004341B1 /* Autor.m */,
+			);
+			name = Entidades;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EF55B21BF91DF800DD1BB1 /* imgperfil.png in Resources */,
 				416F4EAA1BF22F7B00B409E2 /* LaunchScreen.storyboard in Resources */,
 				416F4EA71BF22F7B00B409E2 /* Assets.xcassets in Resources */,
 				416F4EA51BF22F7B00B409E2 /* Main.storyboard in Resources */,
@@ -150,8 +242,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				416F4EA21BF22F7B00B409E2 /* ViewController.m in Sources */,
+				4155358E1BF50CDE004341B1 /* Pregunta.m in Sources */,
+				417464491BF37EC400FE5A08 /* Contenedor.m in Sources */,
 				416F4E9F1BF22F7B00B409E2 /* AppDelegate.m in Sources */,
 				416F4E9C1BF22F7B00B409E2 /* main.m in Sources */,
+				419085A41BF329DD00F00C2F /* GeneraEntidad.m in Sources */,
+				415535911BF50CF4004341B1 /* Autor.m in Sources */,
+				41C1E43B1BF2A01F00ADC55C /* FileHelper.m in Sources */,
+				419085A71BF32AEA00F00C2F /* UrlCallsHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +359,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EduardoFC/PrefixHeader.pch;
 				INFOPLIST_FILE = EduardoFC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.efc.EduardoFC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +373,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EduardoFC/PrefixHeader.pch;
 				INFOPLIST_FILE = EduardoFC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.efc.EduardoFC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +402,7 @@
 				416F4EB01BF22F7B00B409E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

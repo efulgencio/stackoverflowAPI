@@ -1,0 +1,53 @@
+//
+//  PrefixHeader.pch
+//  EduardoFC
+//
+//  Created by eduardo fulgencio on 11/11/15.
+//  Copyright © 2015 eduardo fulgencio. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "GeneraEntidad.h"
+#import "Autor.h"
+#import "Pregunta.h"
+#import "Contenedor.h"
+#import "FileHelper.h"
+
+// Constante url petición para obtener el JSON a partir del cual se generá la entidad que informa la tabla
+#define URL_PETICION @"https://api.stackexchange.com/2.2/questions?page=1&pagesize=40&order=desc&sort=activity&site=stackoverflow"
+
+// NOTIFICACION GENERADA ENTIDAD CONTENEDOR
+#define NOTIFICACION_GENERADO_CONTENEDOR @"NOTIFICACION_GENERADO_CONTENEDOR"
+
+// UBICACIÓN EN EL DIRECTORIO TEMPORAL EN EL CASO DE OBTENER INFORMACIÓN Y A POSTERIOR NO TENER ACCESO A INTERNET
+#define ENTIDAD_STACKOVERFLOW @"STACKOVERFLOW"
+
+// Nombre del dictionario raiz principal para obtener los datos
+#define DICTIONARY_ITEMS_DATOS @"items"
+
+// PRIORIDAD GCD
+#define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+
+// Entidad que solicita la notificación
+#define ENTIDAD_SOLICITA_CONTENEDOR @"CONTENEDOR"
+
+
+/////////////////////////////// DEFINES REFERENTES A LA TABLEVIEW
+
+// Título para las secciones
+#define TITULO_SECCION_CON_RESPUESTAS @"PREGUNTAS CON RESPUESTAS"
+#define TITULO_SECCION_SIN_RESPUESTAS @"PREGUNTAS SIN RESPUESTAS"
+
+// POSICION DE LA SECCION EN LA TABLA
+#define POSICION_SECCION_CON_RESPUESTAS 0
+#define POSICION_SECCION_SIN_RESPUESTAS 1
+
+// Imagén por defecto en las imágenes de la celda
+#define IMAGEN_POR_DEFECTO_CELDA @"imgperfil.png"
+
+/////////////////////////////////////////////////////////////
+
+
+#endif /* PrefixHeader_pch */
