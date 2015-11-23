@@ -10,6 +10,7 @@
 #import "FileHelper.h"
 #import "UrlCallsHelper.h"
 #import "Contenedor.h"
+#import "UIImageView+AFNetworking.h"
 
 @interface ViewController ()
 @property(nonatomic, strong) NSString *contenido;
@@ -120,6 +121,8 @@ const NSString *ResultOfAppendingTwoStringsNotification =  @"ResultOfAppendingTw
             result = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:TableViewCellIdentifier];
         }
         
+        // Esta es la manera como se lo he enviado
+        /*
         // Imágen por defecto pendiente de obtener imagen url
         result.imageView.image = [UIImage imageNamed:IMAGEN_POR_DEFECTO_CELDA];
         // Bloque para obtener la imágen del profile del autor
@@ -134,6 +137,24 @@ const NSString *ResultOfAppendingTwoStringsNotification =  @"ResultOfAppendingTw
             });
             
         });
+        */
+        
+        // Otra manera de obtener la imágen
+        NSURL *url = [NSURL URLWithString:pregunta.autor.profile_image];
+        NSURLRequest *request = [NSURLRequest requestWithURL:url];
+        UIImage *placeholderImage = [UIImage imageNamed:IMAGEN_POR_DEFECTO_CELDA];
+        
+        __weak UITableViewCell *weakCell = result;
+        
+        [result.imageView setImageWithURLRequest:request
+                              placeholderImage:placeholderImage
+                                       success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
+                                           
+                                           weakCell.imageView.image = image;
+                                           [weakCell setNeedsLayout];
+                                           
+                                       } failure:nil];
+
         
         result.textLabel.text = pregunta.title;
         
