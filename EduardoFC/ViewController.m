@@ -120,26 +120,7 @@ const NSString *ResultOfAppendingTwoStringsNotification =  @"ResultOfAppendingTw
         if (result == nil){
             result = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:TableViewCellIdentifier];
         }
-        
-        // Esta es la manera como se lo he enviado
-        /*
-        // Imágen por defecto pendiente de obtener imagen url
-        result.imageView.image = [UIImage imageNamed:IMAGEN_POR_DEFECTO_CELDA];
-        // Bloque para obtener la imágen del profile del autor
-        dispatch_async(kBgQueue, ^{
-            
-            NSString *urlImagen = pregunta.autor.profile_image;
-            
-            NSData *imgData = [NSData dataWithContentsOfURL:[NSURL URLWithString:urlImagen]];
-            
-            dispatch_async(dispatch_get_main_queue(), ^{
-                result.imageView.image = [UIImage imageWithData:imgData];
-            });
-            
-        });
-        */
-        
-        // Otra manera de obtener la imágen
+
         NSURL *url = [NSURL URLWithString:pregunta.autor.profile_image];
         NSURLRequest *request = [NSURLRequest requestWithURL:url];
         UIImage *placeholderImage = [UIImage imageNamed:IMAGEN_POR_DEFECTO_CELDA];
