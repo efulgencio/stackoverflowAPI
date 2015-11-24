@@ -9,3 +9,5 @@ The results are filtered according to whether they contain answers.
 
 You get a JSON becomes NSDictionary and then entities to display in a UITableView.
 There are two sections that group which contain or no answers.
+
+Use of AFNetworking for better use of UIImageView load remote image.
